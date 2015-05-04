@@ -74,6 +74,11 @@ function postResponse(){
 }
 function inicio(cb){
   callback = cb;
+  //Recibo las variables sexo, edad, curso y usuario y las guardo
+  //experiment.sex = variableSexo;
+  //experiment.age = variableAge;
+  //experiment.course = variableCurso;
+  //experiment.user = variableUsuarioWeblab;
   experiment.loadPhases();
   flowState();
 }
